@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A Photographers Place — Fine Art Photo Printing</title>
+  <meta name="description" content="A Photographers Place — professional photo printing and fine art prints on Long Island.">
+  <style>
+    :root{--ink:#172018;--cream:#f5f1e8;--paper:#fbfaf6;--forest:#243b2b;--line:#d8d2c5;--muted:#6d7069}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif}
+    a{color:inherit;text-decoration:none}
+    .wrap{max-width:1180px;margin:auto;padding:0 28px}
+    nav{height:82px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line)}
+    .logo{font-family:Georgia,serif;font-size:22px;letter-spacing:.02em}.logo small{display:block;font:10px Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+    nav .links{display:flex;gap:30px;font-size:13px;text-transform:uppercase;letter-spacing:.12em}
+    .hero{min-height:670px;display:grid;grid-template-columns:1.02fr .98fr;align-items:center;gap:70px;padding:70px 0}
+    .eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:.22em;color:var(--forest);font-weight:700}
+    h1{font:clamp(55px,7vw,92px)/.92 Georgia,serif;font-weight:400;margin:20px 0 26px;letter-spacing:-.045em}
+    .hero p{font:18px/1.65 Georgia,serif;color:#51554f;max-width:520px}
+    .buttons{display:flex;gap:12px;margin-top:34px}.btn{padding:15px 23px;border:1px solid var(--ink);font-size:12px;text-transform:uppercase;letter-spacing:.13em}.btn.primary{background:var(--forest);color:white;border-color:var(--forest)}
+    .hero-img{height:570px;background:linear-gradient(135deg,#39483a,#a7a28f 48%,#e8e0cf);position:relative;overflow:hidden}
+    .hero-img:before{content:"";position:absolute;inset:8% 10% 0;background:linear-gradient(160deg,#d9d0bd,#6f7569 48%,#27372c);opacity:.82}
+    .hero-img:after{content:"FINE ART\A PRINTS";white-space:pre;position:absolute;right:25px;bottom:24px;color:white;font:12px/1.5 Arial;letter-spacing:.22em;text-align:right}
+    .strip{background:var(--forest);color:white;padding:18px 0}.strip .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:11px;letter-spacing:.15em;text-transform:uppercase}
+    section{padding:100px 0}.section-head{display:flex;justify-content:space-between;align-items:end;margin-bottom:42px}.section-head h2{font:52px Georgia,serif;font-weight:400;margin:0;letter-spacing:-.03em}.section-head p{max-width:360px;color:var(--muted);line-height:1.6}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{border-top:1px solid var(--ink);padding-top:18px}.card .photo{height:330px;margin-bottom:22px;background:linear-gradient(145deg,#b9b19f,#4a5b4b 50%,#e3ddd0)}.card:nth-child(2) .photo{background:linear-gradient(145deg,#d7c4aa,#8a6b4d 48%,#292d2a)}.card:nth-child(3) .photo{background:linear-gradient(145deg,#aab8b0,#5f7069 48%,#d8d1c2)}.card h3{font:27px Georgia,serif;margin:0 0 8px}.card p{color:var(--muted);line-height:1.55;margin:0}
+    .about{background:var(--cream)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}.about-art{height:510px;background:linear-gradient(145deg,#223529,#778477 45%,#d9d0bc);position:relative}.about-art span{position:absolute;bottom:25px;left:25px;color:white;font:11px Arial;letter-spacing:.2em;text-transform:uppercase}.about h2{font:55px/.98 Georgia,serif;font-weight:400;margin:15px 0 25px}.about p{font:17px/1.75 Georgia,serif;color:#575b55;max-width:520px}
+    .cta{text-align:center;padding:115px 0}.cta h2{font:clamp(48px,6vw,78px) Georgia,serif;font-weight:400;margin:0 0 25px}.cta p{color:var(--muted);margin-bottom:32px}
+    footer{border-top:1px solid var(--line);padding:30px 0;font-size:12px;color:var(--muted);display:flex;justify-content:space-between}
+    @media(max-width:800px){nav .links{display:none}.hero,.about-grid{grid-template-columns:1fr}.hero{padding:55px 0}.hero-img{height:430px}.cards{grid-template-columns:1fr}.section-head{display:block}.section-head h2{margin-bottom:15px}footer{display:block;line-height:2}}
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <nav>
+      <a class="logo" href="#">A Photographers Place<small>Long Island · New York</small></a>
+      <div class="links"><a href="#services">Printing</a><a href="#about">Our Place</a><a href="#contact">Contact</a></div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="wrap hero">
+      <div>
+        <div class="eyebrow">Professional photo printing · Long Island</div>
+        <h1>Print the<br>photograph.</h1>
+        <p>A Photographers Place is a dedicated print studio for photographers who care about how their work lives beyond the screen.</p>
+        <div class="buttons"><a class="btn primary" href="#services">Explore Printing</a><a class="btn" href="https://github.com/t-bop/APP" target="_blank" rel="noopener">View on GitHub</a></div>
+      </div>
+      <div class="hero-img" aria-label="Abstract photographic print preview"></div>
+    </section>
+
+    <div class="strip"><div class="wrap"><span>Fine Art Printing</span><span>Archival Papers</span><span>Color Managed</span><span>Long Island, NY</span></div></div>
+
+    <section id="services" class="wrap">
+      <div class="section-head"><h2>Made for the<br>photograph.</h2><p>From exhibition pieces to portfolio prints, we help photographers turn digital files into physical work with intention.</p></div>
+      <div class="cards">
+        <article class="card"><div class="photo"></div><h3>Fine Art Prints</h3><p>Archival papers, rich blacks and beautiful tonal detail for work meant to last.</p></article>
+        <article class="card"><div class="photo"></div><h3>Exhibition Prints</h3><p>Large-format printing and careful color management for galleries, shows and installations.</p></article>
+        <article class="card"><div class="photo"></div><h3>Portfolio & Proofs</h3><p>Professional portfolio books, test prints and working proofs for photographers at every stage.</p></article>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="wrap about-grid">
+        <div class="about-art"><span>A place for photographers</span></div>
+        <div><div class="eyebrow">The Studio</div><h2>Your image.<br>Our craft.</h2><p>We believe a great print is part of the photograph itself. Our studio combines professional equipment, experienced eyes and a hands-on approach to make sure your work looks the way you intended.</p><a class="btn primary" href="#contact">Start a Print</a></div>
+      </div>
+    </section>
+
+    <section id="contact" class="wrap cta">
+      <div class="eyebrow">Long Island · New York</div>
+      <h2>Let's make something<br>worth holding.</h2>
+      <p>Bring us your next image, project or exhibition.</p>
+      <a class="btn primary" href="mailto:hello@aphotographersplace.com">Get in Touch</a>
+    </section>
+  </main>
+
+  <footer class="wrap"><span>© 2026 A Photographers Place</span><a href="https://github.com/t-bop/APP" target="_blank" rel="noopener">GitHub · APP</a></footer>
+</body>
+</html>
